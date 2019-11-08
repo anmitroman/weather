@@ -3,4 +3,9 @@ class City < ApplicationRecord
   validates :code, length: { is: 6 }, numericality: { only_integer: true }
   validates :lon, :lat, numericality: true
   validates :country, length: { is: 2 }
+  before_create :add_display
+
+  def add_display
+    self.display = false
+  end
 end

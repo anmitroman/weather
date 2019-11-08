@@ -1,0 +1,11 @@
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Documentation:
+  Enabled: false
+
+Style/WordArray:
+  EnforcedStyle: brackets
+
+Metrics/LineLength:
+  Max: 150
