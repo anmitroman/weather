@@ -1,4 +1,5 @@
 class CitiesController < ApplicationController
+  #caches_page :show
   def index
     @city = City.all
   end
