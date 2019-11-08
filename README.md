@@ -1,24 +1,19 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+# Установка
 
-* Ruby version
+1) git clone ....
+2) Зайти в папку с проектом, выполнить bundle install
+3) Далее запустить rake setup
+4) Запускаем rails s
 
-* System dependencies
+# Админ-панель
 
-* Configuration
+# Гемы
 
-* Database creation
+* 'open-weather'
+- используется для получения погоды с сервиса https://openweathermap.org/, сервис дает бесплатный доступ по ключу к API погоды разных городов. Для удобства администрирования сделана задача, которая импортирует список русских городов с сайта https://openweathermap.org/ в БД с предустановленным флагом отображения. 
 
-* Database initialization
+* 
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...

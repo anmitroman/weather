@@ -1,7 +1,7 @@
 class CitiesController < ApplicationController
   #caches_page :show
   def index
-    @city = City.all
+    @city = City.where(display:true)
   end
   def show
     @city = City.find(params[:id])
