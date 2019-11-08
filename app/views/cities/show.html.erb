@@ -1,0 +1,9 @@
+<div class="card text-center">
+  <div class="card-body weather-card">
+    <h4 class="card-title"><%= @city.name.capitalize %></h4>
+    <div class="temperature">
+      <h1><%= temperature(@city.code) %><span class="degree"></span></h1>
+      <div class="forecast" id="-forecast"><%= raw forecast(@city.code) %></div>
+    </div>
+  </div>
+</div>

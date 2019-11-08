@@ -1,0 +1,12 @@
+<div class="row">
+  <% @city.each do |city| %>
+    <div class="col-md-3">
+      <div class="card">
+        <div class="card-body text-center">
+          <h4 class="card-title"><%= city.name.capitalize %></h4>
+          <%= link_to "Check the weather", city_path(city), class: "btn btn-primary" %>
+        </div>
+      </div>
+    </div>
+  <% end %>
+</div>
