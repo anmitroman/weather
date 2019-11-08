@@ -14,4 +14,16 @@ ActiveAdmin.register City do
   #   permitted
   # end
   
+  form do |f|
+    f.inputs 'Details' do
+      f.input :name
+      f.input :code
+      f.input :display
+      f.input :country, :as => :string
+      f.input :lon
+      f.input :lat
+    end
+    f.actions
+  end
+
 end

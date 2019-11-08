@@ -1,6 +1,7 @@
-<div class="card text-center">
-  <div class="card-body weather-card">
-    <h4 class="card-title"><%= @city.name.capitalize %></h4>
+<div class="media">
+  <%= image_tag( ya_map(@city.lon,@city.lat), alt: "map", class: "mr-3") %>
+    <div class="media-body">
+    <h2 class="card-title"><%= @city.name.capitalize %></h2>
     <div class="temperature">
       <h1><%= temperature(@city.code) %><span class="degree"></span></h1>
       <div class="forecast" id="-forecast"><%= raw forecast(@city.code) %></div>

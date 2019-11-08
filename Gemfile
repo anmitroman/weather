@@ -30,7 +30,7 @@ gem 'bootsnap', '>= 1.4.2', require: false
 gem 'open-weather', '~> 0.12.0'
 gem 'actionpack-action_caching', github: 'rails/actionpack-action_caching'
 gem 'actionpack-action_caching', github: 'rails/actionpack-action_caching'
-gem 'devise'
+gem 'devise', '~> 4.7', '>= 4.7.1'
 gem 'activeadmin', '~> 2.4'
 
 group :development, :test do
