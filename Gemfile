@@ -30,6 +30,8 @@ gem 'bootsnap', '>= 1.4.2', require: false
 gem 'open-weather', '~> 0.12.0'
 gem 'actionpack-action_caching', github: 'rails/actionpack-action_caching'
 gem 'actionpack-action_caching', github: 'rails/actionpack-action_caching'
+gem 'devise'
+gem 'activeadmin', '~> 2.4'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

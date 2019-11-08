@@ -1,1 +1,1 @@
-City.create(name: 'Hurzuf', code: '707860', lon:34.283333, lat:44.549999, country: 'UA', display:true)
+AdminUser.create(email: 'test@test.com', password: '123456', password_confirmation: '123456') 
