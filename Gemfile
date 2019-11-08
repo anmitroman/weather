@@ -28,7 +28,7 @@ gem 'jbuilder', '~> 2.7'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
 gem 'open-weather', '~> 0.12.0'
-gem 'actionpack-action_caching', github: 'rails/actionpack-action_caching'
+gem 'actionpack-page_caching', github: 'rails/actionpack-page_caching'
 gem 'actionpack-action_caching', github: 'rails/actionpack-action_caching'
 gem 'devise', '~> 4.7', '>= 4.7.1'
 gem 'activeadmin', '~> 2.4'
